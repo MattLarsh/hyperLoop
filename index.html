@@ -1,0 +1,40 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+
+	            <circle cx="30" cy="30" r="20"/>
+	            <circle cx="70" cy="70" r="20"/>
+	        
+	<title>HyperLoop</title>
+	<svg id='field' viewBox='0 0 800 600' preserveAspectRatio='xMidYMid'>
+		
+	    <rect id='background' width='800' height='600' />
+	    <!-- <rect  width='300' height='30' x='200' y='300' rx='10'  /> -->
+	    <line id='treeBase1' x1="-100" y1="400" x2="-100" y2="475" clip-path='url(#myClip)' />
+	    <circle id='treeTop1' r='30' cx='-100' cy='405' clip-path='url(#myClip)'>
+	    </circle>
+	    <line id='treeBase2' x1="-100" y1="300" x2="-100" y2="415" clip-path='url(#myClip)' />
+	    <circle id='treeTop2' r='55' cx='-100' cy='305' clip-path='url(#myClip)'>
+	    </circle>
+	    <polygon stroke-linejoin="round"   id='hyper' points="135,149  340,149 420,170  380, 170  95, 170 " /> 
+	    <polygon stroke-linejoin="round"   id='whiteCoat' points="140,153  330,153 400,168  370, 168  105, 168 " /> 
+	    <line id='tube' x1="0" y1="155" x2="800" y2="155" stroke-width="50" />
+	    <line id='motionLine1' x1="91" y1="166" x2="104" y2="161" />
+	    <line id='motionLine2' x1="95" y1="173" x2="135" y2="173" />
+	    <line id='motionLine3' x1="139" y1="144" x2="200" y2="144" />
+	    <line id='motionLine4' x1="359" y1="152" x2="400" y2="152" />
+	    <line id='motionLine5' x1="288" y1="176" x2="380" y2="176" />
+	    <line id='motionLine6' x1="380" y1="156" x2="420" y2="156" />
+	    <line id='motionLine7' x1="150" y1="143" x2="175" y2="143" />
+	  <clipPath id="myClip" >
+      <rect = x='0' y='0' width='800' height='600'/>
+	  </clipPath>
+	    
+    
+	</svg>
+</head>
+<body>
+  <script src=main.js></script>
+</body>
+</html>

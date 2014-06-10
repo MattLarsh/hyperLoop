@@ -1,0 +1,71 @@
+*{
+	box-sizing: border-box;
+}
+body{
+  background: #272822;
+}
+#background{
+	fill: #547429;
+}
+#hyper{
+	fill: #707578;
+	stroke: #707578;
+	stroke-width: 2;
+}
+#whiteCoat{
+	fill: #FBFBFB;
+	stroke: #FBFBFB;
+	stroke-width: 4;
+	fill-opacity: 0.5;
+	stroke-opacity: 0.1;
+}
+#tube{
+	stroke: #6E817B;
+	stroke-opacity: 0.5;
+}
+#motionLine1{
+	stroke: #6E817B;
+	stroke-width: 2;
+}
+#motionLine2{
+	stroke: #6E817B;
+	stroke-width: 2;
+}
+#motionLine3{
+	stroke: #6E817B;
+	stroke-width: 2;
+}
+#motionLine4{
+	stroke: #6E817B;
+	stroke-width: 2;
+}
+#motionLine5{
+	stroke: #6E817B;
+	stroke-width: 2;
+}
+#motionLine6{
+	stroke: #6E817B;
+	stroke-width: 2;
+}
+#motionLine7{
+	stroke: #6E817B;
+	stroke-width: 2;
+}
+#treeBase1{
+	stroke: #3B220E;
+	stroke-width: 10;
+	overflow: hidden;
+}
+#treeTop1{
+	fill: #026411;
+	overflow: hidden;
+}
+#treeBase2{
+	stroke: #3B220E;
+	stroke-width: 19;
+	overflow: hidden;
+}
+#treeTop2{
+	fill: #026411;
+	overflow: hidden;
+}
